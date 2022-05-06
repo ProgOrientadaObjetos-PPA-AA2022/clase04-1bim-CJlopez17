@@ -27,6 +27,9 @@ public class FacturaTelefonica {
         valorMinuto = vMinuto;
 
     }
+    public FacturaTelefonica (String numtel2){
+        numeroTelefono = numtel2;
+    }
 
     public void establecerNumeroTelefono(String c) {
         numeroTelefono = c;
